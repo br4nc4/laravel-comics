@@ -196,7 +196,7 @@ $sitesLinks =
     }
 
     .bgFooter{
-        background-image: url("/public/images/footer-bg.jpg");
+        background-image: url({{url("images/footer-bg.jpg")}});
         background-repeat: no-repeat;
         background-position: top center;
         background-size: cover;
