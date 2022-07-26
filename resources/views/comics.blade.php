@@ -1,5 +1,5 @@
 @extends('layout.app')
 
-@section('')
+@section('page_content')
     
 @endsection

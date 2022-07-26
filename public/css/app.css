@@ -70,7 +70,7 @@
 }
 
 .mySmall {
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 600;
 }
 
@@ -87,5 +87,11 @@
      object-fit: cover;
   -o-object-position: top center;
      object-position: top center;
+}
+
+.myBlueButton {
+  background-color: #0282f9;
+  border: 0;
+  padding: 0.5rem 3rem;
 }
 
