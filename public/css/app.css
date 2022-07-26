@@ -95,3 +95,23 @@
   padding: 0.5rem 3rem;
 }
 
+.comicsBg {
+  background-color: #1c1c1c;
+}
+
+.myBlueBg {
+  background-color: #0282f9;
+}
+
+.cardImgOne {
+  width: 50px;
+}
+
+.cardImgTwo {
+  width: 35px;
+}
+
+.cardImgThree {
+  width: 55px;
+}
+
