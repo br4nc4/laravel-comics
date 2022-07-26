@@ -1,0 +1,63 @@
+.bgBottomFooter {
+  background-color: #303030;
+}
+
+.myButton {
+  background-color: #303030;
+  border: 2px solid #0282f9;
+  color: white;
+  padding: 0.5rem 0.5rem;
+}
+
+.followColor {
+  color: #1b69d9;
+}
+
+.bgFooter {
+  background-image: url("/images/footer-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+
+.myContainer {
+  height: 400px;
+  position: relative;
+  overflow: hidden;
+}
+
+.myContainer img {
+  position: absolute;
+  right: 0;
+  top: -60px;
+}
+
+.myCol {
+  width: 160px !important;
+}
+
+.myNav {
+  --bs-nav-link-padding-x: 1rem;
+  --bs-nav-link-padding-y: 0.5rem;
+  --bs-nav-link-font-weight: ;
+  --bs-nav-link-color: black;
+  --bs-nav-link-hover-color: #0282F9;
+  --bs-nav-link-disabled-color: #6c757d;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.myLink:hover::after {
+  background-color: #0282F9;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 5px;
+  position: absolute;
+  width: calc(100% - 32px);
+  margin-bottom: -50px;
+}
+
