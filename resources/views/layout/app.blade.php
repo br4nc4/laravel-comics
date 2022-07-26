@@ -7,6 +7,12 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>ciao</h1>
+    @include('partials.header')
+
+    <main>
+        @yield('page_content')
+    </main>
+
+    @include('partials.footer')
 </body>
 </html>
