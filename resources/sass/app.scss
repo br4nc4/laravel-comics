@@ -63,3 +63,25 @@ position: absolute;
 width: calc(100% - 16px);
 margin-bottom: -50px;
 }
+
+.topHeader{
+    background-color: #0282F9;
+}
+
+.mySmall{
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.myGap{
+    gap: 50px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.myImg{
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+    object-position: top center;
+}
