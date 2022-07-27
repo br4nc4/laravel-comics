@@ -1,6 +1,6 @@
 <div class="col-2">
     <div class="aspect">
-        <a href="#">
+        <a href="{{route('comics.show', $comic['id'])}}">
             <img src="{{ $comic['thumb'] }}" alt="">
         </a>
     </div> 

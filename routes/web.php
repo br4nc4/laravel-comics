@@ -34,9 +34,9 @@ Route::get('/comics/{id}', function ($id) {
             break;
         }
     }
-    
+
     return view('comics.show', [
         "detailsComic" => $foundComic
     ]);
-});
+})->name("comics.show");
 
