@@ -7,7 +7,7 @@ $navMenu =
                 ],
                 [
                     "link" => "COMICS",
-                    "href" => "#",
+                    "href" => route('comics'),
                 ],
                 [
                     "link" => "MOVIES",
