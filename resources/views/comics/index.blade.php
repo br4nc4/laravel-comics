@@ -1,5 +1,7 @@
 @extends('layout.app')
 
+@section('page_title', "Comics")
+
 @section('page_content')
 <div>
     <div class="container-fluid comicsBg pb-1">
