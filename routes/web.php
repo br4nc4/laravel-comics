@@ -35,6 +35,10 @@ Route::get('/comics/{id}', function ($id) {
         }
     }
 
+    if(is_null($foundComic)){
+        abort('404');
+    }
+
     return view('comics.show', [
         "detailsComic" => $foundComic
     ]);
